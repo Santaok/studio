@@ -1,0 +1,119 @@
+.header__logo{
+    width: 2.8125vw;
+    height: 2.8125vw;
+}
+.logo__text{
+    font-size: 1.5vw;
+    line-height: 1;
+    margin-left: 0.25vw;
+    color: #fff;
+}
+
+.header__logos{
+    display: flex;
+}
+.header_list{
+    display: flex;
+    justify-content: center;
+    color:#fff;
+   
+}
+a{
+    color: #9e9c9c;
+    text-decoration: none;
+    font-weight: 700;
+    
+}
+a:hover{
+    color: #fff;
+}
+li{
+    list-style: none;
+    margin: 5px;
+    font-size: 1.1432vw
+}
+.header__list__box{
+    display: flex;
+    justify-content: center;
+    margin-left: 28vw;
+    
+}
+
+.header__menu{
+    margin-top: 3vw;
+
+}
+.header__button{
+    position: absolute;
+    right: 1vw;
+    top: 3.5453vw;
+    padding:12px 25px 12px 25px;
+    background-color: rgba(127, 255, 212, 0);
+    border: 2px solid   #fff;
+    border-radius: 12px;
+    color: #fff;
+    transition: all 50ms ease-in-out;
+}
+.header__button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+
+}
+.header__text{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 5vw;
+    
+}
+h1{
+    font-family: 'Rubik One', sans-serif;
+    font-size: 4.6042vw;
+    text-transform: uppercase;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(225,187,251,1) 81%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    display: table;
+    margin: 20px auto;
+    width: 55.8750vw;
+    font-weight: 700;
+    text-align: center;
+  }
+   
+.header__subject{
+   font-size: 1vw;
+   color: #9e9c9c;
+   width: 15%;
+   line-height: 1vw;
+   text-align: center;
+
+
+}
+.podsos{
+    display: flex;
+    justify-content: center;
+}
+.header__buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.header__button_light{
+    margin: 0.5vw;
+    padding: 12px 25px;
+    border-radius: 0.6250vw;
+    font-weight: 600;
+    
+}
+
+.header__button_dark{
+    margin: 0.5vw;
+    padding: 12px 25px;
+    border-radius: 0.6250vw;
+    color: aliceblue;
+    font-weight: 600;
+background: linear-gradient(180deg, rgba(0,0,0,1) 88%, rgba(29,95,197,1) 100%);
+    border: none;
+}
