@@ -47,7 +47,6 @@ li{
     position: absolute;
     right: 1vw;
     top: 3.5453vw;
-    padding:12px 25px 12px 25px;
     background-color: rgba(127, 255, 212, 0);
     border: 2px solid   #fff;
     border-radius: 12px;
@@ -102,7 +101,7 @@ h1{
 
 .header__button_light{
     margin: 0.5vw;
-    padding: 12px 25px;
+
     border-radius: 0.6250vw;
     font-weight: 600;
     
@@ -110,7 +109,7 @@ h1{
 
 .header__button_dark{
     margin: 0.5vw;
-    padding: 12px 25px;
+   
     border-radius: 0.6250vw;
     color: aliceblue;
     font-weight: 600;

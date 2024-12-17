@@ -37,3 +37,7 @@ html{
     left: 30vw;
     display: flex;
 }
+
+button{
+    padding: 0.6250vw 1.3021vw;
+}
