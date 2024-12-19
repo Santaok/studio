@@ -11,7 +11,8 @@ html{
     overflow-y: auto;
   }
   body{
-    margin: auto;
+    
+    background-color: #010915;
   }
   .background{
     position: absolute;
@@ -34,10 +35,16 @@ html{
     height: 25vw;
     position: relative;
     top: 1vw;
-    left: 30vw;
+    left: 23vw;
     display: flex;
+   z-index: 5;
 }
 
 button{
     padding: 0.6250vw 1.3021vw;
+    transition: all 50ms ease-in-out;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
 }
