@@ -25,6 +25,13 @@ function myFunction() {
     
   
    
+const cardBg = document.getElementById("card__button")
+const maks = document.getElementById("maksg")
+cardBg.addEventListener("click", function (event) {
+maks.classList.toggle("dv")
 
+
+
+})
 
 

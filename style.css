@@ -48,3 +48,19 @@ button:hover{
     cursor: pointer;
     transform: scale(1.2);
 }
+.dist{
+    position: relative;
+    z-index: 50;
+    width: 20vw;
+    height: 35vh;
+    display: none
+}
+.dv{
+    position: relative;
+    z-index: 50;
+    width: 20vw;
+    height: 30vh;
+    display: flex;
+    margin-left: 10vw;
+    
+}
