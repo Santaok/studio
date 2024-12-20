@@ -1,48 +1,53 @@
 /* Кнопка выпадающего списка */
 
-  
-  /* Кнопка выпадающего меню при наведении и фокусировке */
-  .dropbtn{
-    color: #9e9c9c;
-    text-decoration: none;
-    font-weight: 700;
-    background-color: #9e9c9c00;
-    border: none;
-    font-size: 1.1432vw
-    
+
+/* Кнопка выпадающего меню при наведении и фокусировке */
+.dropbtn {
+  color: #9e9c9c;
+  text-decoration: none;
+  font-weight: 700;
+  background-color: #9e9c9c00;
+  border: none;
+  font-size: 1.1432vw
 }
-.dropbtn:hover{
-    color: #fff;
+
+.dropbtn:hover {
+  color: #fff;
 }
-  /* Контейнер <div> - необходим для размещения выпадающего содержимого */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  /* Выпадающее содержимое (скрыто по умолчанию) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  /* Ссылки внутри выпадающего списка */
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  /* Изменение цвета выпадающих ссылок при наведении курсора */
-  .dropdown-content a:hover {background-color: #ddd}
-  
-  /* Показать выпадающее меню (используйте JS, чтобы добавить этот класс .dropdown-content содержимого, когда пользователь нажимает на кнопку выпадающего списка) */
-  .show {display:block;}
+
+/* Контейнер <div> - необходим для размещения выпадающего содержимого */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Выпадающее содержимое (скрыто по умолчанию) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Ссылки внутри выпадающего списка */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Изменение цвета выпадающих ссылок при наведении курсора */
+.dropdown-content a:hover {
+  background-color: #ddd
+}
+
+/* Показать выпадающее меню (используйте JS, чтобы добавить этот класс .dropdown-content содержимого, когда пользователь нажимает на кнопку выпадающего списка) */
+.show {
+  display: block;
+}
 
 
 
@@ -52,7 +57,7 @@
 
 
 
-.project{
+.project {
   background-color: #010915;
   position: absolute;
   bottom: -120%;
@@ -60,195 +65,292 @@
 
 
 
-h2{
+h2 {
   color: aliceblue;
   font-size: 2.8646vw;
   width: 30%;
-  
+
 }
-  .color__text{
-    color: #E1BBFB;
-  }
 
-  .text__project{
-    color: #9e9c9c;
-    width: 26%;
+.color__text {
+  color: #E1BBFB;
+}
 
-  }
-  .About{
-    color: aliceblue;
-   font-size: 1.25vw;
-   font-weight: 900;
-   right:23.33%;
-   position: absolute;
+.text__project {
+  color: #9e9c9c;
+  width: 26%;
 
-  }
+}
 
-  .special{
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    margin-left: 4vw;
-    margin-right: 5vw;
+.About {
+  color: aliceblue;
+  font-size: 1.25vw;
+  font-weight: 900;
+  right: 23.33%;
+  position: absolute;
 
-  }
-  .img__card{
-    width: 34.5156vw;
-    height: 35.6250vw;
-    border-radius: 2vw;
-   
-  }
-  .img__text{
-    position: absolute;
-    margin-left: 3vw;
-   
-  }
-  .card__button{
-    color: rgb(0, 0, 0);
-    border-radius: 0.6250vw;
-    font-weight: 600;
-    background-color: #fff;
-  }
- 
-  .card__text_img{
-    color: #9e9c9c;
-    width: 60%;
-    margin-bottom: 2vw;
-   
-  }
-  
-  .text__img{
-    color: aliceblue;
-font-weight: 500;
-width: 50% ;
-font-size: 3vw
+}
 
-  }
-  .card{
-    margin-top: 3vw;
-    margin-left: 4vw;
-    display: flex;
-    justify-content: space-between;
-    gap: 10%;
-  }
+.special {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-left: 4vw;
+  margin-right: 5vw;
+
+}
+
+.img__card {
+  width: 34.5156vw;
+  height: 35.6250vw;
+  border-radius: 2vw;
+
+}
+
+.img__text {
+  position: absolute;
+  margin-left: 3vw;
+
+}
+
+.card__button {
+  color: rgb(0, 0, 0);
+  border-radius: 0.6250vw;
+  font-weight: 600;
+  background-color: #fff;
+}
+
+.card__text_img {
+  color: #9e9c9c;
+  width: 60%;
+  margin-bottom: 2vw;
+
+}
+
+.text__img {
+  color: aliceblue;
+  font-weight: 500;
+  width: 50%;
+  font-size: 3vw
+}
+
+.card {
+  margin-top: 3vw;
+  margin-left: 4vw;
+  display: flex;
+  justify-content: space-between;
+  gap: 10%;
+}
 
 
-  .card__box{
-display: flex;
-flex-direction: column;
+.card__box {
+  display: flex;
+  flex-direction: column;
 
 
-  }
-  .card__item{
-    background: linear-gradient(306.77deg, #060B21 75.7%, #0E142F 97.33%);
-border-radius: 1vw;
-padding: 2vw 1.3021vw;
-margin-bottom: 1vw;
-margin-top: 1.3vw;
+}
 
-  }
-  .card__item:hover{
-    background: linear-gradient(306.77deg, #060B21 75.7%, #0E142F 97.33%);
-    border-radius: 1vw;
-    padding: 2vw 1.3021vw;
-    margin-bottom: 1vw;
-    margin-top: 1.2vw;
-    border: 0.0005vw solid #E1BBFB;
-    box-shadow: inset 0px 0px 15px 1px #E1BBFB
+.card__item {
+  background: linear-gradient(306.77deg, #060B21 75.7%, #0E142F 97.33%);
+  border-radius: 1vw;
+  padding: 2vw 1.3021vw;
+  margin-bottom: 1vw;
+  margin-top: 1.3vw;
 
-  }
-  .card__h1{
-color: aliceblue;
-font-size: 1.3542vw;
-font-weight: 800;
-width: 10% ;
+}
 
-  }
+.card__item:hover {
+  background: linear-gradient(306.77deg, #060B21 75.7%, #0E142F 97.33%);
+  border-radius: 1vw;
+  padding: 2vw 1.3021vw;
+  margin-bottom: 1vw;
+  margin-top: 1.2vw;
+  border: 0.0005vw solid #E1BBFB;
+  box-shadow: inset 0px 0px 15px 1px #E1BBFB
+}
 
-  .card__text{
-color: #9e9c9c;
-width: 60%;
-  }
+.card__h1 {
+  color: aliceblue;
+  font-size: 1.3542vw;
+  font-weight: 800;
+  width: 10%;
 
-  .display{
-    display: flex;
-    justify-content: space-between
-  }
-  .into_h1{
-    font-size: 2.8646vw;
-    color: aliceblue;
-    width: 35%;
-  }
-  .services{
-    background-color: #010915;
+}
+
+.card__text {
+  color: #9e9c9c;
+  width: 60%;
+}
+
+.display {
+  display: flex;
+  justify-content: space-between
+}
+
+.into_h1 {
+  font-size: 2.8646vw;
+  color: aliceblue;
+  width: 35%;
+  font-weight: 800;
+}
+
+.services {
+  background-color: #010915;
   position: absolute;
   margin: 5vw;
   top: 210vh
+}
+
+.into {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.into__h5 {
+  color: aliceblue;
+  font-size: 1.25vw;
+  font-weight: 900;
+  right: 21.33%;
+  position: absolute;
+}
+
+.blur__text {
+  display: grid;
+  color: #ddd;
+  justify-content: center;
+  text-align: center;
 
 }
-  .into{
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-  }
-  .into__h5{
-    color: aliceblue;
-    font-size: 1.25vw;
-    font-weight: 900;
-    right:21.33%;
-    position: absolute;
-  }
 
-  .blur__text{
-    display: grid;
-    color: #ddd;
-    justify-content: center;
-    text-align: center;
-    
-  }
-  .font{
-    font-size: 2.6458vw;
-margin: 1.22vw;
-font-weight: 700;
-  }
-  .Mobile{
-    background: rgb(72, 72, 74);
-    background: linear-gradient(180deg, rgba(72, 72, 74, 0.388) 38%, rgba(120, 118, 118, 0.7) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
-   
-  }
-  .visual{
-    background: rgb(72,72,74);
-    background: linear-gradient(180deg, rgba(72,72,74,1) 38%, rgb(179, 172, 172) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
-   
-  }
-  .Graghic{
-    font-size: 2.8458vw;
-  }
-  .UIUX{
-    background: rgb(234,232,232);
-    background: linear-gradient(180deg, rgb(184, 176, 176) 12%, rgba(72,72,74,1) 61%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
-  }
-  .Web{
-    background: rgb(120,118,118);
-background: linear-gradient(180deg, rgba(120, 118, 118, 0.588) 0%, rgba(72, 72, 74, 0.363) 77%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
- 
-  }
-  .blur__img{
-    width: 14.0625vw;
-    height: 14.0625vw;
+.font {
+  font-size: 2.6458vw;
+  margin: 1.22vw;
+  font-weight: 700;
+}
+
+.Mobile {
+  background: rgb(72, 72, 74);
+  background: linear-gradient(180deg, rgba(72, 72, 74, 0.388) 38%, rgba(120, 118, 118, 0.7) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+}
+
+.visual {
+  background: rgb(72, 72, 74);
+  background: linear-gradient(180deg, rgba(72, 72, 74, 1) 38%, rgb(179, 172, 172) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+}
+
+.Graghic {
+  font-size: 2.8458vw;
+}
+
+.UIUX {
+  background: rgb(234, 232, 232);
+  background: linear-gradient(180deg, rgb(184, 176, 176) 12%, rgba(72, 72, 74, 1) 61%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.Web {
+  background: rgb(120, 118, 118);
+  background: linear-gradient(180deg, rgba(120, 118, 118, 0.588) 0%, rgba(72, 72, 74, 0.363) 77%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.blur__img {
+  width: 14.0625vw;
+  height: 14.0625vw;
+  position: absolute;
+  border-radius: 7vw;
+  top: 10vw;
+  right: 20vw;
+}
+
+.inside__h1 {
+  font-size: 2.3646vw;
+  color: aliceblue;
+  width: 50%;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.inside__text {
+  width: 12%;
+  color: aliceblue;
+  font-size: 1.25vw;
+  font-weight: 900;
+
+
+}
+.inside {
+  display: flex;
+  justify-content: space-between;
+
+}
+.inside__button {
     position: absolute;
-    border-radius: 7vw;
-    top: 10vw;
-    right: 20vw;
-  }
+    right: 1.4vw;
+    top: 65%;
+    background-color: rgba(127, 255, 212, 0);
+    border: 2px solid   #fff;
+    border-radius: 12px;
+    color: #fff;
+    width: 9.5208vw;
+  
+}
+
+.more__item{
+  background: rgb(6,11,33);
+background: linear-gradient(152deg, rgba(6,11,33,1) 0%, rgba(14,22,51,1) 83%);
+  width: 24.7708vw;
+  height: 38.4375vh;
+  border-radius: 19px;
+ 
+}
+
+.car{
+  width: 100%;
+  height: 60%;
+  border-radius: 1vw;
+}
+.more{
+  display: flex;
+ justify-content: space-around;
+ 
+}
+.more__text{
+  padding-top: 1vw;
+  color: aliceblue;
+  font-size: 1.3021vw;
+  width: 44%;
+  padding-left: 0.9vw;
+
+}
+.more__href{
+  color: #DFB9F8;
+  text-decoration: 1.25px underline #DFB9F8;
+}
+.more__div{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+ 
+}
+.d{
+  padding-top: 1vw;
+  color: aliceblue;
+  font-size: 1.3021vw;
+  width: 60%;
+  padding-left: 0.9vw;
+
+}

@@ -35,3 +35,11 @@ maks.classList.toggle("dv")
 })
 
 
+const sher = document.getElementById("sherr")
+const sherbg = document.getElementById("sherbutton")
+sherbg.addEventListener("click", function(event){
+  sher.classList.toggle("dota")
+
+
+
+})

@@ -64,3 +64,25 @@ button:hover{
     margin-left: 10vw;
     
 }
+.sher{
+   width:  17vw;
+   height: 20vh;
+   position: absolute;
+   right: 0;
+   top: 40%;
+   z-index: 99;
+   display: none;
+   
+}
+
+
+.dota{
+    width:  17vw;
+    height: 20vh;
+    position: absolute;
+    right: 0;
+    top: 40%;
+    z-index: 99;
+    display: flex;
+    
+}
