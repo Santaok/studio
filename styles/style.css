@@ -1,8 +1,6 @@
-@import url(header.css);
-@import url(main.css);
-{
-    border: 1px solid #ccc
-}
+@import url(/styles/header.css);
+@import url(/styles/main.css);
+@import url(/styles/mobile.css);
 
 html{
     margin: 0;
