@@ -1,0 +1,86 @@
+@import url(/styles/header.css);
+@import url(/styles/main.css);
+@import url(/styles/mobile.css);
+
+html{
+    margin: 0;
+    
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  body{
+    
+    background-color: #010915;
+  }
+  .background{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    margin-left: 0;
+    overflow-x: hidden;
+  
+}
+
+
+.div{
+    display: none;
+}
+
+.disabled{
+    width: 50vw;
+    height: 25vw;
+    position: relative;
+    top: 1vw;
+    left: 23vw;
+    display: flex;
+   z-index: 5;
+}
+
+button{
+    padding: 0.6250vw 1.3021vw;
+    transition: all 50ms ease-in-out;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.dist{
+    position: relative;
+    z-index: 50;
+    width: 20vw;
+    height: 35vh;
+    display: none
+}
+.dv{
+    position: relative;
+    z-index: 50;
+    width: 20vw;
+    height: 30vh;
+    display: flex;
+    margin-left: 10vw;
+    
+}
+.sher{
+   width:  17vw;
+   height: 20vh;
+   position: absolute;
+   right: 0;
+   top: 40%;
+   z-index: 99;
+   display: none;
+   
+}
+
+
+.dota{
+    width:  17vw;
+    height: 20vh;
+    position: absolute;
+    right: 0;
+    top: 40%;
+    z-index: 99;
+    display: flex;
+    
+}
