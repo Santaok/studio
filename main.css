@@ -354,3 +354,123 @@ background: linear-gradient(152deg, rgba(6,11,33,1) 0%, rgba(14,22,51,1) 83%);
   padding-left: 0.9vw;
 
 }
+
+.team__text{
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 74px;
+  line-height: 120%;
+  background: linear-gradient(140deg, #fff 0%, #e1bbfb 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 30;
+  position: absolute;
+  top: 50vh;
+  left: -2vw;
+}
+.team{
+  position: absolute;
+  top: 370vh;
+  width: 25%;
+  margin-left: 4vw;
+ 
+  
+}
+.team__img{
+  width: 1456px;
+height: 828px;
+z-index: -2;
+}
+.team__box__item{
+  content: url(img/tteam.jpg);
+  width: 490px;
+height: 364px;
+position: absolute;
+border-radius: 1vw;
+box-shadow:  0px 0px 40px 7px #6a10cb;
+transition: all 0.5s ease-in-out;
+
+
+}
+.team__box:hover .team__box__item {
+  width: 490px;
+height: 364px;
+position: absolute;
+border-radius: 1vw;
+box-shadow:  0px 0px 40px 7px #6a10cb;
+content: url(img/eam.jpg);
+
+}
+
+.team__box{
+  position: absolute;
+  top:28vh;
+   right: -19vw;
+   transition: all 0.5s ease-in-out;
+
+}
+.main__nav{
+  display: flex;
+  position: absolute;
+  left:-4vw;
+  top: 55vw;
+  justify-content: space-between;
+
+}
+.main__list{
+display: flex;
+}
+.main__button__dark{
+  margin: 0.5vw; 
+  border-radius: 0.6250vw;
+  color: aliceblue;
+  font-weight: 600;
+background: linear-gradient(180deg, rgba(0,0,0,1) 88%, rgba(29,95,197,1) 100%);
+  
+  border: none;
+  padding: 0.6250vw 2.3021vw;
+  
+
+}
+.main__button{
+  margin: 0.5vw;
+  border-radius: 0.6250vw;
+  font-weight: 600;
+  padding: 0.6250vw 1.3021vw;
+}
+.buttons__main{
+  position: absolute;
+  right: -60vw;
+}
+.footer__p{
+  
+font-weight: 400;
+font-size: 16px;
+color: #fff;
+margin-right: 3vw;
+}
+.footer__pp{
+  
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  margin-right: 3vw;
+ 
+  }
+.footer{
+  position: absolute;
+ bottom: -200vw;
+ border-top: 2px solid #ddd;
+ width: 100vw;
+
+ 
+}
+.footer__div{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  column-gap:  60vw;
+
+  
+}

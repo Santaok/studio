@@ -104,6 +104,7 @@ h1{
 
     border-radius: 0.6250vw;
     font-weight: 600;
+    padding: 0.6250vw 1.3021vw;
     
 }
 
@@ -115,4 +116,5 @@ h1{
     font-weight: 600;
 background: linear-gradient(180deg, rgba(0,0,0,1) 88%, rgba(29,95,197,1) 100%);
     border: none;
+    padding: 0.6250vw 1.3021vw;
 }
